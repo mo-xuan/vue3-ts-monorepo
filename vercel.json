@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "packages/web1",
+      "use": "@vercel/node@19.7.0",
+      "config": {
+        "PNPM_VERSION": "7.x"
+      }
+    }
+  ]
+}
