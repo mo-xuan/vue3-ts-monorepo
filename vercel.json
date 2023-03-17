@@ -8,5 +8,11 @@
         "PNPM_VERSION": "7.x"
       }
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/packages/web1"
+    }
   ]
 }
