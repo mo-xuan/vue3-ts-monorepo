@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "dev:web1": "vite packages/web1"
+    "dev:web1": "vite packages/web1",
+    "build:web1": "pnpm --filter ./packages/web1 build"
   },
   "dependencies": {
     "ant-design-vue": "^3.2.15",
