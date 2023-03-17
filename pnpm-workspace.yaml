@@ -1,0 +1,10 @@
+packages:
+  #  所有的项目目录
+  - 'packages/*'
+  # 公共组件目录
+  - 'components/**'
+  # 公共接口目录
+  - 'apis/**'
+  # 公共方法目录
+  - 'utils/**'
+

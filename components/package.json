@@ -1,0 +1,7 @@
+{
+  "name": "@m/components",
+  "version": "1.0.0",
+  "description": "通用业务组件",
+  "main": "index.ts",
+  "license": "ISC"
+}

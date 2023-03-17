@@ -1,0 +1,11 @@
+{
+  "name": "@m/apis",
+  "version": "1.0.0",
+  "description": "通用接口请求",
+  "main": "index.ts",
+  "keywords": [
+    "axios"
+  ],
+  "author": "",
+  "license": "ISC"
+}
