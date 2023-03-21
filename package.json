@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "dev:web1": "vite packages/web1",
-    "build:web1": "pnpm --filter ./packages/web1 build"
+    "preinstall": "npx only-allow pnpm",
+    "dev:web1": "pnpm -F @m/web1 run dev",
+    "build": "pnpm -r run build",
+    "build:web1": "pnpm -F @m/web1 run build"
   },
   "dependencies": {
     "ant-design-vue": "^3.2.15",
@@ -14,6 +16,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "@rushstack/eslint-patch": "^1.2.0",
     "@types/node": "^18.14.2",
     "@vitejs/plugin-vue": "^4.0.0",
